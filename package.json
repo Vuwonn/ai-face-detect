@@ -9,10 +9,12 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "fingerpose": "0.0.2",
+    "joi": "^17.13.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "react-webcam": "^5.2.0"
+    "react-scripts": "^5.0.1",
+    "react-webcam": "^5.2.0",
+    "uuid": "^11.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +36,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.9",
+    "eslint": "^8.0.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-webpack-plugin": "^4.2.0"
   }
 }
